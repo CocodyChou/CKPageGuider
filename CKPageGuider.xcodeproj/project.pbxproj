@@ -16,6 +16,21 @@
 		CC3C73951C9907D4004CC5BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C73931C9907D4004CC5BB /* LaunchScreen.storyboard */; };
 		CC3C73A01C9907D5004CC5BB /* CKPageGuiderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C739F1C9907D5004CC5BB /* CKPageGuiderTests.m */; };
 		CC3C73AB1C9907D5004CC5BB /* CKPageGuiderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C73AA1C9907D5004CC5BB /* CKPageGuiderUITests.m */; };
+		CC848D3F1C9A558A00EDDEDD /* CKBracketView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC848D3E1C9A558A00EDDEDD /* CKBracketView.m */; };
+		CCA819AA1C9938BA0016B214 /* CKNormalAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819A51C9938BA0016B214 /* CKNormalAction.m */; };
+		CCA819AB1C9938BA0016B214 /* CKPageAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819A71C9938BA0016B214 /* CKPageAction.m */; };
+		CCA819AC1C9938BA0016B214 /* CKToastAction.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819A91C9938BA0016B214 /* CKToastAction.m */; };
+		CCA819BC1C99454B0016B214 /* CKPageScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819BB1C99454B0016B214 /* CKPageScene.m */; };
+		CCA819C01C9945F00016B214 /* CKNormalActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819BF1C9945F00016B214 /* CKNormalActionView.m */; };
+		CCA819C41C9946170016B214 /* CKNormalActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA819C31C9946170016B214 /* CKNormalActionView.xib */; };
+		CCA819C71C9946450016B214 /* CKPageActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819C61C9946450016B214 /* CKPageActionView.m */; };
+		CCA819CA1C9946FF0016B214 /* CKToastActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819C91C9946FF0016B214 /* CKToastActionView.m */; };
+		CCA819CC1C99470F0016B214 /* CKToastActionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA819CB1C99470F0016B214 /* CKToastActionView.xib */; };
+		CCA819D01C99489A0016B214 /* CKPageSceneView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819CF1C99489A0016B214 /* CKPageSceneView.m */; };
+		CCA819D31C994BD40016B214 /* CKPageGuiderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819D21C994BD40016B214 /* CKPageGuiderView.m */; };
+		CCA819D61C994ECF0016B214 /* CKPageGuider.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819D51C994ECF0016B214 /* CKPageGuider.m */; };
+		CCA819D91C9951FF0016B214 /* CKPageGuiderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA819D81C9951FF0016B214 /* CKPageGuiderHelper.m */; };
+		CCD6A7421C9A7ABD00999F70 /* PageGuider.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD6A7411C9A7ABD00999F70 /* PageGuider.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +69,33 @@
 		CC3C73A61C9907D5004CC5BB /* CKPageGuiderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKPageGuiderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3C73AA1C9907D5004CC5BB /* CKPageGuiderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKPageGuiderUITests.m; sourceTree = "<group>"; };
 		CC3C73AC1C9907D5004CC5BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC848D3D1C9A558A00EDDEDD /* CKBracketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKBracketView.h; sourceTree = "<group>"; };
+		CC848D3E1C9A558A00EDDEDD /* CKBracketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKBracketView.m; sourceTree = "<group>"; };
+		CCA819A41C9938BA0016B214 /* CKNormalAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKNormalAction.h; sourceTree = "<group>"; };
+		CCA819A51C9938BA0016B214 /* CKNormalAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKNormalAction.m; sourceTree = "<group>"; };
+		CCA819A61C9938BA0016B214 /* CKPageAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPageAction.h; sourceTree = "<group>"; };
+		CCA819A71C9938BA0016B214 /* CKPageAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKPageAction.m; sourceTree = "<group>"; };
+		CCA819A81C9938BA0016B214 /* CKToastAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKToastAction.h; sourceTree = "<group>"; };
+		CCA819A91C9938BA0016B214 /* CKToastAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKToastAction.m; sourceTree = "<group>"; };
+		CCA819BA1C99454B0016B214 /* CKPageScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPageScene.h; sourceTree = "<group>"; };
+		CCA819BB1C99454B0016B214 /* CKPageScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKPageScene.m; sourceTree = "<group>"; };
+		CCA819BE1C9945F00016B214 /* CKNormalActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKNormalActionView.h; sourceTree = "<group>"; };
+		CCA819BF1C9945F00016B214 /* CKNormalActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKNormalActionView.m; sourceTree = "<group>"; };
+		CCA819C31C9946170016B214 /* CKNormalActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKNormalActionView.xib; sourceTree = "<group>"; };
+		CCA819C51C9946450016B214 /* CKPageActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPageActionView.h; sourceTree = "<group>"; };
+		CCA819C61C9946450016B214 /* CKPageActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKPageActionView.m; sourceTree = "<group>"; };
+		CCA819C81C9946FF0016B214 /* CKToastActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKToastActionView.h; sourceTree = "<group>"; };
+		CCA819C91C9946FF0016B214 /* CKToastActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKToastActionView.m; sourceTree = "<group>"; };
+		CCA819CB1C99470F0016B214 /* CKToastActionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CKToastActionView.xib; sourceTree = "<group>"; };
+		CCA819CE1C99489A0016B214 /* CKPageSceneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPageSceneView.h; sourceTree = "<group>"; };
+		CCA819CF1C99489A0016B214 /* CKPageSceneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKPageSceneView.m; sourceTree = "<group>"; };
+		CCA819D11C994BD40016B214 /* CKPageGuiderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPageGuiderView.h; sourceTree = "<group>"; };
+		CCA819D21C994BD40016B214 /* CKPageGuiderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKPageGuiderView.m; sourceTree = "<group>"; };
+		CCA819D41C994ECF0016B214 /* CKPageGuider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPageGuider.h; sourceTree = "<group>"; };
+		CCA819D51C994ECF0016B214 /* CKPageGuider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKPageGuider.m; sourceTree = "<group>"; };
+		CCA819D71C9951FF0016B214 /* CKPageGuiderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKPageGuiderHelper.h; sourceTree = "<group>"; };
+		CCA819D81C9951FF0016B214 /* CKPageGuiderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKPageGuiderHelper.m; sourceTree = "<group>"; };
+		CCD6A7411C9A7ABD00999F70 /* PageGuider.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PageGuider.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +152,7 @@
 				CC3C73891C9907D4004CC5BB /* MasterViewController.m */,
 				CC3C738B1C9907D4004CC5BB /* DetailViewController.h */,
 				CC3C738C1C9907D4004CC5BB /* DetailViewController.m */,
+				CC3C73BB1C99303D004CC5BB /* CKPageGuider */,
 				CC3C738E1C9907D4004CC5BB /* Main.storyboard */,
 				CC3C73911C9907D4004CC5BB /* Assets.xcassets */,
 				CC3C73931C9907D4004CC5BB /* LaunchScreen.storyboard */,
@@ -143,6 +186,96 @@
 				CC3C73AC1C9907D5004CC5BB /* Info.plist */,
 			);
 			path = CKPageGuiderUITests;
+			sourceTree = "<group>";
+		};
+		CC3C73BB1C99303D004CC5BB /* CKPageGuider */ = {
+			isa = PBXGroup;
+			children = (
+				CC3C73BC1C99303D004CC5BB /* Model */,
+				CC3C73BE1C99303D004CC5BB /* View */,
+				CC3C73BD1C99303D004CC5BB /* Other */,
+			);
+			path = CKPageGuider;
+			sourceTree = "<group>";
+		};
+		CC3C73BC1C99303D004CC5BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCA819D41C994ECF0016B214 /* CKPageGuider.h */,
+				CCA819D51C994ECF0016B214 /* CKPageGuider.m */,
+				CCA819D71C9951FF0016B214 /* CKPageGuiderHelper.h */,
+				CCA819D81C9951FF0016B214 /* CKPageGuiderHelper.m */,
+				CCA819B91C99454B0016B214 /* Scenes */,
+				CCA819A31C9938BA0016B214 /* Actions */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC3C73BD1C99303D004CC5BB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CCD6A7411C9A7ABD00999F70 /* PageGuider.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CC3C73BE1C99303D004CC5BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCA819D11C994BD40016B214 /* CKPageGuiderView.h */,
+				CCA819D21C994BD40016B214 /* CKPageGuiderView.m */,
+				CCA819CD1C9947750016B214 /* SceneViews */,
+				CCA819BD1C9945DB0016B214 /* ActionViews */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCA819A31C9938BA0016B214 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				CCA819A61C9938BA0016B214 /* CKPageAction.h */,
+				CCA819A71C9938BA0016B214 /* CKPageAction.m */,
+				CCA819A41C9938BA0016B214 /* CKNormalAction.h */,
+				CCA819A51C9938BA0016B214 /* CKNormalAction.m */,
+				CCA819A81C9938BA0016B214 /* CKToastAction.h */,
+				CCA819A91C9938BA0016B214 /* CKToastAction.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		CCA819B91C99454B0016B214 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CCA819BA1C99454B0016B214 /* CKPageScene.h */,
+				CCA819BB1C99454B0016B214 /* CKPageScene.m */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CCA819BD1C9945DB0016B214 /* ActionViews */ = {
+			isa = PBXGroup;
+			children = (
+				CCA819C51C9946450016B214 /* CKPageActionView.h */,
+				CCA819C61C9946450016B214 /* CKPageActionView.m */,
+				CCA819BE1C9945F00016B214 /* CKNormalActionView.h */,
+				CCA819BF1C9945F00016B214 /* CKNormalActionView.m */,
+				CCA819C31C9946170016B214 /* CKNormalActionView.xib */,
+				CCA819C81C9946FF0016B214 /* CKToastActionView.h */,
+				CCA819C91C9946FF0016B214 /* CKToastActionView.m */,
+				CCA819CB1C99470F0016B214 /* CKToastActionView.xib */,
+				CC848D3D1C9A558A00EDDEDD /* CKBracketView.h */,
+				CC848D3E1C9A558A00EDDEDD /* CKBracketView.m */,
+			);
+			path = ActionViews;
+			sourceTree = "<group>";
+		};
+		CCA819CD1C9947750016B214 /* SceneViews */ = {
+			isa = PBXGroup;
+			children = (
+				CCA819CE1C99489A0016B214 /* CKPageSceneView.h */,
+				CCA819CF1C99489A0016B214 /* CKPageSceneView.m */,
+			);
+			path = SceneViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +384,9 @@
 				CC3C73951C9907D4004CC5BB /* LaunchScreen.storyboard in Resources */,
 				CC3C73921C9907D4004CC5BB /* Assets.xcassets in Resources */,
 				CC3C73901C9907D4004CC5BB /* Main.storyboard in Resources */,
+				CCA819CC1C99470F0016B214 /* CKToastActionView.xib in Resources */,
+				CCD6A7421C9A7ABD00999F70 /* PageGuider.xcassets in Resources */,
+				CCA819C41C9946170016B214 /* CKNormalActionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +411,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA819AA1C9938BA0016B214 /* CKNormalAction.m in Sources */,
+				CCA819C71C9946450016B214 /* CKPageActionView.m in Sources */,
+				CCA819AC1C9938BA0016B214 /* CKToastAction.m in Sources */,
+				CCA819C01C9945F00016B214 /* CKNormalActionView.m in Sources */,
+				CCA819D31C994BD40016B214 /* CKPageGuiderView.m in Sources */,
+				CCA819D01C99489A0016B214 /* CKPageSceneView.m in Sources */,
 				CC3C73871C9907D4004CC5BB /* AppDelegate.m in Sources */,
+				CCA819D91C9951FF0016B214 /* CKPageGuiderHelper.m in Sources */,
+				CCA819CA1C9946FF0016B214 /* CKToastActionView.m in Sources */,
+				CCA819AB1C9938BA0016B214 /* CKPageAction.m in Sources */,
 				CC3C738A1C9907D4004CC5BB /* MasterViewController.m in Sources */,
 				CC3C73841C9907D4004CC5BB /* main.m in Sources */,
 				CC3C738D1C9907D4004CC5BB /* DetailViewController.m in Sources */,
+				CCA819D61C994ECF0016B214 /* CKPageGuider.m in Sources */,
+				CCA819BC1C99454B0016B214 /* CKPageScene.m in Sources */,
+				CC848D3F1C9A558A00EDDEDD /* CKBracketView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,6 +652,7 @@
 				CC3C73B11C9907D5004CC5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC3C73B21C9907D5004CC5BB /* Build configuration list for PBXNativeTarget "CKPageGuiderTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +661,7 @@
 				CC3C73B41C9907D5004CC5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC3C73B51C9907D5004CC5BB /* Build configuration list for PBXNativeTarget "CKPageGuiderUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +670,7 @@
 				CC3C73B71C9907D5004CC5BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
