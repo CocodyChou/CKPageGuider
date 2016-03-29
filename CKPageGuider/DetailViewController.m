@@ -46,7 +46,6 @@
 {
     [super viewDidAppear:animated];
     [self showPageGuider];
-    [UILocalNotification new].repeatCalendar
 }
 
 - (void)showPageGuider
