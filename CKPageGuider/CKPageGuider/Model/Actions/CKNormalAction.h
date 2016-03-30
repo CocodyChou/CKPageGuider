@@ -20,6 +20,7 @@
 - (CGFloat)finalCornerRadius;
 
 + (instancetype)actionWithFocusView:(UIView *)view direction:(CKPageActionDirection)direction description:(NSString *)description;
++ (instancetype)actionWithFocusBarItem:(UIBarButtonItem *)item direction:(CKPageActionDirection)direction description:(NSString *)description;
 + (instancetype)actionWithFocusRect:(CGRect)rect direction:(CKPageActionDirection)direction description:(NSString *)description;
 
 @end

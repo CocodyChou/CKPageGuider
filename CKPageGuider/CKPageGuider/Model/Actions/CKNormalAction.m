@@ -39,6 +39,11 @@
     return self;
 }
 
++ (instancetype)actionWithFocusBarItem:(UIBarButtonItem *)item direction:(CKPageActionDirection)direction description:(NSString *)description
+{
+    return [[CKNormalAction alloc] initWithFocusView:[item valueForKey:@"_view"] direction:direction description:description];
+}
+
 + (instancetype)actionWithFocusRect:(CGRect)rect direction:(CKPageActionDirection)direction description:(NSString *)description
 {
     return [[CKNormalAction alloc] initWithFocusRect:rect direction:direction description:description];
