@@ -22,7 +22,9 @@
 
 + (BOOL)shouldShowPageGuiderForIdentifier:(NSString *)identifier
 {
-    return YES;
+#if DEBUG
+//    return YES;
+#endif
     if (!identifier) {
         return NO;
     }
@@ -43,6 +45,20 @@
     }
     [[NSUserDefaults standardUserDefaults] removeObjectForKey:identifier];
     [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
++ (UIButton *)buttonOfNavigationItemAtIndex:(NSInteger)index leftSide:(BOOL)ifLeftSide navigationBar:(UINavigationBar *)bar
+{
+    UIView *view =  nil;
+    
+    for (UIView *v in bar.subviews) {
+        if ([v isKindOfClass:[UIButton class]]) {
+            view = v;
+            break;
+        }
+    }
+    
+    return (UIButton *)view;
 }
 
 @end

@@ -20,4 +20,6 @@
 
 + (void)clearDataForIdentifier:(NSString *)identifier;
 
++ (UIButton *)buttonOfNavigationItemAtIndex:(NSInteger)index leftSide:(BOOL)ifLeftSide navigationBar:(UINavigationBar *)bar;
+
 @end

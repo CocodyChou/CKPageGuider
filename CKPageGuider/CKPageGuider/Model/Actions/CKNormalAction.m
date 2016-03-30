@@ -79,38 +79,39 @@
     CGPoint center = CGPointZero;
     CGPoint focusCenter = CGPointMake(CGRectGetMidX(focusFrame), CGRectGetMidY(focusFrame));
     
-    static CGFloat spaceBetweenBracketAndFocusFrame = 10.f;
+    static CGFloat spaceBetweenBracketAndFocusFrame = 3;
+    spaceBetweenBracketAndFocusFrame = 3 * [UIScreen mainScreen].scale;
     
     if (self.direction == CKPageActionDirectionLeft || self.direction == CKPageActionDirectionRight) {
-        frame.size.height = focusFrame.size.height * 0.9;
+        frame.size.height = (focusFrame.size.height - self.margin.top - self.margin.bottom) * 0.9;
     }
     
     if (self.direction == CKPageActionDirectionUp || self.direction == CKPageActionDirectionDown) {
-        frame.size.width = focusFrame.size.width * 0.9;
+        frame.size.width = (focusFrame.size.width - self.margin.left - self.margin.right) * 0.9;
     }
     
     switch (self.direction) {
         case CKPageActionDirectionLeft:
         {
             center.y = focusCenter.y;
-            center.x = focusCenter.x - frame.size.width / 2 - focusFrame.size.width / 2 - spaceBetweenBracketAndFocusFrame - 2 - focusFrame.size.width * 0.1 / 2;
+            center.x = focusCenter.x - frame.size.width / 2 - focusFrame.size.width / 2 - spaceBetweenBracketAndFocusFrame - focusFrame.size.width * 0.1 / 2 - self.margin.right;
             break;
         }
         case CKPageActionDirectionRight:
         {
             center.y = focusCenter.y;
-            center.x = focusCenter.x + frame.size.width / 2 + focusFrame.size.width / 2 + spaceBetweenBracketAndFocusFrame;
+            center.x = focusCenter.x + frame.size.width / 2 + focusFrame.size.width / 2 + spaceBetweenBracketAndFocusFrame + self.margin.left;
             break;
         }
         case CKPageActionDirectionUp:
         {
-            center.y = focusCenter.y - frame.size.height / 2 - focusFrame.size.height / 2 - spaceBetweenBracketAndFocusFrame;
+            center.y = focusCenter.y - frame.size.height / 2 - focusFrame.size.height / 2 - spaceBetweenBracketAndFocusFrame + self.margin.top;
             center.x = focusCenter.x;
             break;
         }
         case CKPageActionDirectionDown:
         default:
-            center.y = focusCenter.y + frame.size.height / 2 + focusFrame.size.height / 2 + spaceBetweenBracketAndFocusFrame;
+            center.y = focusCenter.y + frame.size.height / 2 + focusFrame.size.height / 2 + spaceBetweenBracketAndFocusFrame - self.margin.bottom;
             center.x = focusCenter.x;
             break;
     }

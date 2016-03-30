@@ -47,9 +47,12 @@
 {
     self.alpha = 0.f;
     [self handleMask];
+//	[UIApplication sharedApplication].keyWindow.userInteractionEnabled = NO;
     [UIView animateWithDuration:.25f animations:^{
         self.alpha = 1.0f;
-    }];
+    } completion:^(BOOL finished) {
+//		[UIApplication sharedApplication].keyWindow.userInteractionEnabled = YES;
+	}];
 }
 - (void)hide:(void(^)())finish
 {
